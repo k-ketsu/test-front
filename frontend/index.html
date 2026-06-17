@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<head>
+    <title>test 2</title>
+    <style>
+        #TestForm{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            width: 200px;
+            height: 100px;
+            background-color: antiquewhite;
+            border-radius: 20px;
+            padding: 20px;
+            text-align: center;
+            
+        }
+        #AddName{
+            width: 180px;
+            background-color: rgb(221, 204, 182);
+            height: 25px;
+            margin-bottom: 10px;
+            border: 0px;
+            border-radius: 20px;
+            text-align: center;
+        }
+        #AddAge{
+            width: 180px;
+            background-color: rgb(221, 204, 182);
+            height: 25px;
+            margin-bottom: 10px;
+            border: 0px;
+            border-radius: 20px;
+            -moz-appearance: textfield;
+            text-align: center;
+        }
+        #supmit{
+            width: 70px;
+            height: 20px;
+            background-color: #ddccb6;
+            margin-top: 10px;
+            border: 0px;
+            border-radius: 20px;
+        }
+        #supmit:active{
+            background-color: #c0af98;
+        }
+    </style>
+
+</head>
+<body>
+    <form id="TestForm">
+        <input type="text" id="AddName">
+        <input type="number" id="AddAge">
+        <button id="supmit">supmit</button>
+    </form>
+    <script src="script.js"></script>
+</body>
