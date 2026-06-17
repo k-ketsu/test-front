@@ -1,5 +1,5 @@
 
-const TheURL = "test2-production-ae19.up.railway.app"
+const TheURL = "https://test2-production-ae19.up.railway.app"
 const Age = document.getElementById("AddAge").addEventListener("input", function () {
     this.value = this.value.replace(/[^0-9]/g, "");
 })
